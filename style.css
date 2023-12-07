@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rock+Salt&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #2c2c2c;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1b1b1b;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#heardertitulo{
+    font-family: 'Kanit', sans-serif;
+    color: #dadada;
+    flex-wrap: nowrap;
+    padding: 10px
+}
+
+nav{
+  
+}
+
+ul{
+    list-style: none;
+}
+
+#menu li{
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    color: #dadada;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fa7b5b;
+    transition: color 0.3s;
+}
+
+#titulo{
+   text-align: center;
+    color: #fa7b5b;
+}
+
+main{
+    margin: 40px;
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(148, 148, 148);
+}
+
+#paragrafos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#paragrafo{
+    font-size: 18px;
+    max-width: 500px;
+    margin: auto;
+    line-height: 40px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #323232;
+    margin: 10px;
+}
+
+#card{
+    width: 200px;
+    height: 300px;
+    background-color: #fa7b5b;
+    border-radius: 20px;
+    box-shadow: 11px -8px 0px 0px #030303;
+    margin-top: 20px;
+}
+
+#cardp{
+    padding: 10px;
+}
+
+footer p{
+    background-color: #000000;
+    color: #bebebe;
+    padding: 50px;
+    text-align: center;
+    font-size: iem;
+}
+
+.redes{
+    color: #969799;
+    padding: 10px;
+}
+
+.sectionserves{
+    color: #fa7b5b;
+}
